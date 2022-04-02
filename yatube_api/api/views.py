@@ -1,6 +1,5 @@
 from django.shortcuts import get_object_or_404
-from rest_framework import viewsets, serializers, filters
-from rest_framework.decorators import action
+from rest_framework import viewsets, filters
 from rest_framework.pagination import LimitOffsetPagination
 
 from posts.models import Post, Group
